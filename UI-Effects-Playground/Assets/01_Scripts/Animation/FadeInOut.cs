@@ -21,4 +21,5 @@ public class FadeInOut : MonoBehaviour
             .SetEase(Ease.InQuad)
             .OnComplete(() => targetGroup.blocksRaycasts = false); // 페이드 아웃 후 클릭 막기
     }
+    
 }
