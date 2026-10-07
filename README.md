@@ -54,3 +54,12 @@ Unity UI 연출(애니메이션 + 셰이더) 실험 프로젝트
 | 44 | 텍스트 그라디언트 애니메이션 | 44_TextGradientShine |
 | 45 | 아웃라인 펄스 | 45_IconOutlinePulse |
 | 46 | 스켈레톤 로딩(Shimmer) | 46_SkeletonLoading |
+
+## 데모 씬 다시 만들기 (20번 이후)
+20번 이후 씬은 에디터 스크립트(`Assets/01_Scripts/Editor/Scenes/BuildXX_*.cs`)로 구성됩니다.
+씬이 깨졌거나 처음부터 다시 만들고 싶으면 Unity 메뉴에서 실행하세요.
+- `Tools > UI Effects > Build All Demo Scenes` : 20~46번 씬 전체 재생성
+- `Tools > UI Effects > Build Scene > XX_Name` : 해당 씬만 재생성
+
+셰이더 연출(29번 이후)은 `Assets/02_Shaders/UI` 의 커스텀 UI 셰이더 + `Assets/01_Scripts/Shader` 의 제어 스크립트(DOTween 으로 머티리얼 프로퍼티 트윈) 구조입니다.
+데모용 이미지는 `Assets/05_Sprites/Generated` 에 코드로 생성됩니다.
