@@ -2,6 +2,8 @@
 
 Unity UI 연출(애니메이션 + 셰이더) 실험 프로젝트
 
+📖 **[프로젝트 위키 (docs)](docs/README.md)** — 항목별 원리 · 구성 · 파라미터 정리
+
 ## 사용 기술
 - Unity 6000.3.9f1 (URP)
 - DOTween (Free)
