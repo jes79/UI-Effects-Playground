@@ -792,7 +792,7 @@
    "sub": "UI 셰이더 기초·빛",
    "term": "커스텀 UI 셰이더 베이스 (Custom UI Shader Base)",
    "easy": "모든 UI 셰이더 효과가 함께 쓰는 뼈대 셰이더",
-   "concept": "셰이더(Shader)는 화면의 점 하나하나를 어떤 색으로 칠할지 정하는 작은 프로그램이다. UIEffects/UIBase는 Unity 기본 UI 셰이더(UI/Default)와 똑같이 그리면서 채도(_Saturation, 색의 진하기)와 밝기(_Brightness)만 더했다. 스크립트는 머티리얼(Material, 셰이더 설정값 묶음)을 복사본(인스턴스)으로 만들어 쓰고, DOTween의 material.DOFloat로 값을 부드럽게 바꾼다. 30~46번 셰이더는 모두 이 구조를 따른다.",
+   "concept": "셰이더(Shader)는 화면의 점 하나하나를 어떤 색으로 칠할지 정하는 작은 프로그램이다. UIEffects/UIBase는 Unity 기본 UI 셰이더(UI/Default)와 똑같이 그리면서 채도(_Saturation, 색의 진하기)와 밝기(_Brightness)만 더했다. 스크립트는 머티리얼(Material, 셰이더 설정값 묶음)을 복사본(인스턴스)으로 만들어 쓰고, DOTween의 material.DOFloat로 값을 부드럽게 바꾼다. 30~46번 셰이더 대부분이 이 구조를 따른다(46번 스켈레톤 로딩은 공유 머티리얼과 시간으로 움직이는 예외).",
    "labView": "왼쪽 UI/Default와 가운데 UIBase(채도가 저절로 오르내림)를 비교하고, 아래 Toggle Brightness 버튼으로 오른쪽 그림의 밝기를 바꾼다.",
    "controls": "Toggle Brightness : 오른쪽 그림 밝기 1 ↔ 0.35 바꾸기 (0.5초)\n가운데 그림 (자동) : 채도가 0 ↔ 1.4로 1.5초마다 오르내림",
    "tryThis": [
