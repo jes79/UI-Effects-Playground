@@ -5,7 +5,7 @@ Unity UI 연출(애니메이션 + 셰이더) 실험 프로젝트
 📖 **[GitHub Wiki](https://github.com/jes79/UI-Effects-Playground/wiki)** — 항목별 원리 · 구성 · 파라미터 정리 ([docs/ 원본](docs/README.md))
 
 ## 사용 기술
-- Unity 6000.3.9f1 (URP)
+- Unity 6000.6.4f1 (URP)
 - DOTween (Free)
 - Shader Graph / HLSL
 
@@ -65,3 +65,23 @@ Unity UI 연출(애니메이션 + 셰이더) 실험 프로젝트
 
 셰이더 연출(29번 이후)은 `Assets/02_Shaders/UI` 의 커스텀 UI 셰이더 + `Assets/01_Scripts/Shader` 의 제어 스크립트(DOTween 으로 머티리얼 프로퍼티 트윈) 구조입니다.
 데모용 이미지는 `Assets/05_Sprites/Generated` 에 코드로 생성됩니다.
+
+## 강의 모드
+
+`Assets/Lecture/LectureHub.unity`(Build Settings 맨 앞 씬)를 열고 플레이하면 허브가 뜹니다. 인자 없이 켜면 **자유 모드**로, 씬 목록(07~46)에서 데모를 골라 봅니다. 데모 화면 왼쪽 위 **◀ 목록** 버튼이나 **Backspace**로 씬 목록에 돌아옵니다.
+**F4**를 누르면 강의 용어 목록이 열리고, 용어를 누르면 개발실 팀원이 단계별(분야 소개 → ① 소개 → ② 개념 → ③ 직접 보기 → ④ AI에게 요청)로 설명합니다.
+용어로 들어갈 때마다 그 용어의 데모 씬이 처음 상태로 새로 열립니다. 강의 화면은 씬이 바뀌어도 남고, 말풍선·카드·버튼 밖에서는 데모 버튼을 그대로 누를 수 있습니다.
+
+| 키 | 기능 |
+|---|---|
+| PgDn / ] · PgUp / [ | 다음 · 이전 단계 |
+| End · Home | 다음 · 이전 용어 |
+| F3 | 말풍선 숨기기·보이기 |
+| Backspace | 용어 목록 (강의 중이 아닐 때는 씬 목록) |
+| F4 | 강의 모드 끄기·켜기 |
+| Esc | 강의 프로그램 끝내기 (강의 중이 아닐 때) |
+
+- 용어 데이터: `Assets/Lecture/Resources/UIEffectsGlossary.json` (OMP Studio 앱의 강의 준비 창도 같은 파일을 읽음). 용어별로 열 씬은 각 용어의 `lab.scene` 칸
+- 강의 프로그램: **Tools → UI Effects → Build Lecture Player** → `Builds/LecturePlayer/UIEffectsLab.exe` (git 루트 기준, git에 올리지 않으므로 PC마다 한 번 빌드). Unity 6000.6.4f1
+  - `UIEffectsLab.exe -glossaryStart 0304 -glossaryLecture` : 그 용어부터 강의 · `-glossaryStart 0304` : 그 용어의 데모 씬만 · 인자 없음 : 자유 모드(씬 목록)
+- 허브 씬이 깨졌으면 **Tools → UI Effects → Build Lecture Hub** 로 다시 만듭니다 (Build Settings 씬 목록도 허브 + 07~46으로 맞춰 줌)

@@ -6,8 +6,127 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/00_Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Lecture/LectureHub.unity
+    guid: 067187b918446ce4f898b1f708cb232d
+  - enabled: 1
+    path: Assets/00_Scenes/07_FadeInOut.unity
+    guid: a087722eec4e7494cb70fcd2a7e2f1e7
+  - enabled: 1
+    path: Assets/00_Scenes/08_ScalePopup.unity
+    guid: f0886e7d4f7092c4dbffb059722ceea7
+  - enabled: 1
+    path: Assets/00_Scenes/09_SlideInOut.unity
+    guid: 35e4553273aefbc479542c54df9279ad
+  - enabled: 1
+    path: Assets/00_Scenes/10_ButtonPress.unity
+    guid: fc6e775b5919db441a31c7eacdaac02c
+  - enabled: 1
+    path: Assets/00_Scenes/11_ButtonHover.unity
+    guid: a8cc36a861c417b4698a1bb3073034fe
+  - enabled: 1
+    path: Assets/00_Scenes/12_ButtonRipple.unity
+    guid: 2b65e7df67a77ed4b8199f1fc8b10ea2
+  - enabled: 1
+    path: Assets/00_Scenes/13_Shake.unity
+    guid: 2e13620ed353d794c8b947d12035aa63
+  - enabled: 1
+    path: Assets/00_Scenes/14_ToastPopup.unity
+    guid: 24f238fc0d9a0fc49bc5da6d53aaf0d7
+  - enabled: 1
+    path: Assets/00_Scenes/15_BadgeCount.unity
+    guid: ef1fafc189163e84d966001a6e1ceedb
+  - enabled: 1
+    path: Assets/00_Scenes/16_Pulse.unity
+    guid: d36e997cd7347ee40993d6255c102ff7
+  - enabled: 1
+    path: Assets/00_Scenes/17_SuccessCheck.unity
+    guid: 5a9ca1570f7f3f44f823dde31824dbec
+  - enabled: 1
+    path: Assets/00_Scenes/18_CountUp.unity
+    guid: 580cdb85410dda443b30bf3bbc0525be
+  - enabled: 1
+    path: Assets/00_Scenes/19_ProgressBarFill.unity
+    guid: f14b2ba66227197499f4ccd6512d50ce
+  - enabled: 1
+    path: Assets/00_Scenes/20_GaugeDamageDelay.unity
+    guid: de922b7fb80585e49a286f6755b696e6
+  - enabled: 1
+    path: Assets/00_Scenes/21_PopupOpenClose.unity
+    guid: ca3401f2dc146524cb2f25e8dd218abd
+  - enabled: 1
+    path: Assets/00_Scenes/22_AccordionExpand.unity
+    guid: 96453966667eecc4baad5105f0207271
+  - enabled: 1
+    path: Assets/00_Scenes/23_PageSwipe.unity
+    guid: e24ea1844c065c94a8748fc6c46bc981
+  - enabled: 1
+    path: Assets/00_Scenes/24_TabIndicator.unity
+    guid: 64b5b520744e9be4c892e178393ccd80
+  - enabled: 1
+    path: Assets/00_Scenes/25_GlowOutlinePulse.unity
+    guid: 308345d09beaccc46b284364f9d236d4
+  - enabled: 1
+    path: Assets/00_Scenes/26_UIParticle.unity
+    guid: 9f382f28e12756d4b9f0107b1bcc1bcc
+  - enabled: 1
+    path: Assets/00_Scenes/27_CardFlip.unity
+    guid: 014ffdd37f344dc4ca8406606178688d
+  - enabled: 1
+    path: Assets/00_Scenes/28_TutorialSpotlight.unity
+    guid: bef19211ade314c4db6f77ae271000e3
+  - enabled: 1
+    path: Assets/00_Scenes/29_ShaderBase.unity
+    guid: 96a27bcad2125194e9ca56db968a23d5
+  - enabled: 1
+    path: Assets/00_Scenes/30_Shimmer.unity
+    guid: 99fec5d21dd565c44a590e52c13f405c
+  - enabled: 1
+    path: Assets/00_Scenes/31_GlowPulseShader.unity
+    guid: c8c5c1809d4882f4a9269cf96e5d5367
+  - enabled: 1
+    path: Assets/00_Scenes/32_HolographicGradient.unity
+    guid: 6e1962c8599422c448e0ebd35be39384
+  - enabled: 1
+    path: Assets/00_Scenes/33_ChromaticAberration.unity
+    guid: fecaab455db1a4d4a830fa986aa68e20
+  - enabled: 1
+    path: Assets/00_Scenes/34_Dissolve.unity
+    guid: 96508565bebfd1940b03a1ee693a763c
+  - enabled: 1
+    path: Assets/00_Scenes/35_PixelateTransition.unity
+    guid: 113bdc72b07e00941bfd3ba1f3cf742b
+  - enabled: 1
+    path: Assets/00_Scenes/36_HologramScanline.unity
+    guid: 8b2693f06b7d9194387fe0b3f12829b9
+  - enabled: 1
+    path: Assets/00_Scenes/37_UnlockReveal.unity
+    guid: 1978091f2828793419ccdb4512faee7f
+  - enabled: 1
+    path: Assets/00_Scenes/38_LiquidFill.unity
+    guid: 1633893db38f8e84d86bc6bd243f6b4e
+  - enabled: 1
+    path: Assets/00_Scenes/39_GradientMaskFade.unity
+    guid: 78d8b949394664d438bb9991b347f57c
+  - enabled: 1
+    path: Assets/00_Scenes/40_WaveDistortion.unity
+    guid: 45bf4972a8baa8941997c75bba855647
+  - enabled: 1
+    path: Assets/00_Scenes/41_GlassRefraction.unity
+    guid: 7b6f62b7f36698047951fb7ff202a25f
+  - enabled: 1
+    path: Assets/00_Scenes/42_Glitch.unity
+    guid: 310c7cda489185a4cac46426b030748f
+  - enabled: 1
+    path: Assets/00_Scenes/43_HeatWave.unity
+    guid: 4da53fa58aa02024882b636510972174
+  - enabled: 1
+    path: Assets/00_Scenes/44_TextGradientShine.unity
+    guid: 9cab33b958a18bc40841648976eff6e1
+  - enabled: 1
+    path: Assets/00_Scenes/45_IconOutlinePulse.unity
+    guid: dea3a9a4fdd36ab47b6d349fb329a8c2
+  - enabled: 1
+    path: Assets/00_Scenes/46_SkeletonLoading.unity
+    guid: b0cef7520eefa0e438750bfdf9ff7a70
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  m_UseUCBPForAssetBundles: 0

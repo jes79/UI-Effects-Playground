@@ -11,7 +11,7 @@ Unity UI 연출(애니메이션 + 셰이더)을 항목별 씬으로 하나씩 �
 
 | 항목 | 내용 |
 |---|---|
-| Unity | 6000.3.9f1 (URP) |
+| Unity | 6000.6.4f1 (URP) |
 | 트윈 | DOTween (Free) |
 | 셰이더 | HLSL (UI/Default 호환 커스텀 UI 셰이더) |
 | 입력 | Input System (`InputSystemUIInputModule`) |
@@ -42,6 +42,7 @@ Assets/
 
 - [데모 씬 빌더](scene-builder.md) — 20~46번 씬을 코드로 만드는 에디터 도구
 - [커스텀 UI 셰이더 구조](shader-architecture.md) — 29~46번 셰이더 공통 구조와 새 셰이더 만드는 법
+- [강의 교안 (UI 이펙트 랩)](lessons/README.md) — 40개 씬을 8차시로 묶은 수업 교안 (시연 순서 · 실습 · 과제)
 
 ## 항목 목록
 
